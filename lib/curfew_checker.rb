@@ -38,6 +38,6 @@ def platinum_curfew_checker(current_time, curfew_time)
   elsif current_time > curfew_time
     "You're in trouble! Better get home quick!"
   else
-    "You have #{11 - time} hour(s) left to keep having fun!"
+    "You have #{curfew_time - current_time} hour(s) left to keep having fun!"
   end
 end
